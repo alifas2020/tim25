@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 100%;
+
+  padding: 0 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(1, 1, 110, 0.7);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+}
+
+header img {
+  margin-top: 15px;
+
+  height: 40px;
+}
+
+.header-left {
+  float: left;
+  color: aliceblue;
+  padding-bottom: 20px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  height: 25px;
+  margin-top: 20px;
+  display: none;
+}
+
+
+hr {
+  margin-top: 20px;
+}
+
+
+
+
+.top-wrapper {
+
+  color: red;
+  text-align: center;
+
+}
+
+.top-wrapper h1 {
+  margin-top: 50px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  font-style: italic;
+
+}
+
+.top-wrapper h2 {
+  font-size: 30pt;
+  font-style: italic;
+  color: blue;
+  margin-bottom: -10px;
+
+
+}
+
+
+
+.top-wrapper h2:hover {
+  color: blueviolet;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.top-wrapper h3 {
+  font-size: 20pt;
+  font-style: italic;
+  color: lightseagreen;
+}
+
+.top-wrapper p {
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
+
+hr {
+  width: 90%;
+}
+
+
+
+
+.lesson-wrapper {
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  text-align: center;
+}
+
+
+.lesson {
+  float: left;
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 300px;
+
+}
+
+.box {
+  width: 90%;
+  background-color: RGBA(255, 255, 255, 0.4);
+  border-style: solid;
+  border-radius: 5px;
+  border-color: RGBA(255, 255, 255, 0.7);
+  border-width: 2px;
+
+  height: 250px;
+  position: relative;
+}
+
+.box:hover {
+
+  background-color: RGBA(255, 255, 255, 0.8);
+}
+
+
+.lingkaranpf1 {
+  width: 10%;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+.lingkaranpf1:hover {
+  opacity: 1;
+
+}
+
+.lingkaranpf2 {
+  width: 40%;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+.lingkaranpf2:hover {
+  opacity: 1;
+
+}
+
+
+.lesson h2 {
+  background-color: RGBA(5, 5, 25, 0.2);
+  color: blueviolet;
+}
+
+.lesson p {
+  font-size: 14pt;
+}
+
+
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-style: italic;
+  font-size: 20pt;
+  color: aliceblue;
+}
+
+footer:hover {
+  color: red;
+  background-color: RGBA(255, 255, 255, 0.6);
+}

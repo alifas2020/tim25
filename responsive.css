@@ -1,0 +1,43 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+
+  .lingkaranpf1 {
+    width: 25%;
+  }
+
+  .lingkaranpf2 {
+    width: 25%;
+  }
+
+  .lesson {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+}
+
+
+/* Untuk Smartphones */
+
+
+@media (max-width: 670px) {
+
+  .lesson {
+    width: 100%;
+
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+
+
+  footer {
+    font-size: 17px;
+  }
+}
